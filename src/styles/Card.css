@@ -1,0 +1,46 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width:45vh;
+    margin-top: 10px;
+    border: 1px solid red;
+    margin-right: 5px;
+    /* height:60vh; */
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cardhead>img{
+    /* height:90px; */
+    border-radius: 10px;
+    max-width: 100%;
+    height:auto;
+
+    margin-top: 10px;
+    
+   
+}
+.cardhead{
+    align-items: center;
+    height: 20px;
+
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid red;
+    margin: 20px;
+
+    
+}
+.btn-star{
+   width: 50px;
+   height: 20px;
+   border-radius: 10px;
+   margin: 20px;
+}
+/* .card:active{
+    border: 2px solid red ;
+} */
